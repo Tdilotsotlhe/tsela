@@ -1,0 +1,27 @@
+{
+  "name": "tsela",
+  "version": "1.0.0",
+  "description": "ok",
+  "main": "tselaServer.js",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "make test",
+    "start": "nodemon -r esm tselaServer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tdilotsotlhe/tsela.git"
+  },
+  "author": "TI DILOTSOTLHE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tdilotsotlhe/tsela/issues"
+  },
+  "homepage": "https://github.com/Tdilotsotlhe/tsela#readme"
+}

@@ -1,0 +1,61 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js create react-app my-app
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\bbdnet2154\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files\Microsoft\Web Platform Installer;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0;C:\Program Files\Microsoft SQL Server\110\Tools\Binn;C:\Users\bbdnet2154\AppData\Local\Microsoft\WindowsApps;C:\Users\bbdnet2154\AppData\Roaming\npm;C:\Users\bbdnet2154\AppData\Local\Yarn\bin;C:\Users\bbdnet2154\.dotnet\tools
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  13.7.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\bbdnet2154\Desktop\tsela 13feb\tsela\package.json: Unexpected token n in JSON at position 4
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    name: tsela,
+    version: 1.0.0,
+    description: tsela,
+    main: index.js,
+    scripts: {
+      test: echo \Error: no test specified\ && exit 1,
+      start: node -r esm server2.js
+    },
+    repository: {
+      type: git,
+      url: git+https://github.com/Tdilotsotlhe/tsela.git
+    },
+    keywords: [
+      tsela,
+      graphQL,
+      shandes
+    ],
+    author: TI DILOTSOTLHE,
+    license: ISC,
+    bugs: {
+      url: https://github.com/Tdilotsotlhe/tsela/issues
+    },
+    homepage: https://github.com/Tdilotsotlhe/tsela#readme,
+    dependencies: {
+      esm: ^3.2.25,
+      express: ^4.17.1,
+      express-graphql: ^0.9.0,
+      graphql: ^14.6.0
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
