@@ -12,7 +12,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "make test",
-    "start": "nodemon -r esm tselaServer.js"
+    "start": "nodemon -r esm tselaServer.js",
+    "debug": "nodemon --inspect -r esm tselaServer.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/Tdilotsotlhe/tsela/issues"
   },
-  "homepage": "https://github.com/Tdilotsotlhe/tsela#readme"
+  "homepage": "https://github.com/Tdilotsotlhe/tsela#readme",
+  "outFiles": [
+    "${workspaceFolder}/src/aaa.js"
+  ]
 }
