@@ -39,6 +39,13 @@ export var AddyData = [
         // street: 'THOMPSON AVE'
         street: "new road"
 
+    },
+    {
+        id: 7,
+        town: 'Lesotho',
+        // street: 'THOMPSON AVE'
+        street: "Butha buthe"
+
     }
 
 ];
