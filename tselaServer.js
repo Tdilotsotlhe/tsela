@@ -21,6 +21,7 @@ var schema = buildSchema(`
         id: Int
         town: String
         street: String
+        province: String
     }
 `);
 
@@ -29,29 +30,21 @@ var schema = buildSchema(`
 var getAddy = function(args) { 
     var town = args.town.toLowerCase();
     return AddyData.filter(addy => {
-        if(addy.town.startsWith(town) || addy.town == town)
+        if(addy.town.toLowerCase().startsWith(town) || addy.town == town)
         {
           return addy.town == town;
         }   
     })[0];
     
 }
-// var getCourses = function(args) {
-//     if (args.topic) {
-//         var topic = args.topic;
-//         return AddyData.filter(course => course.topic === topic);
-//     } else {
-//         return AddyData;
-//     }
-// }
 
 var getResStreet = function(args) {
 
     if (args.street) {
 //        return AddyData;
-        var street = args.street;
+        var street = args.street.toLowerCase();
        
-        return AddyData.filter(saddy => saddy.street === street);
+        return AddyData.filter(saddy => (saddy.street).toLowerCase().startsWith(street));//=== street);
     } else {
         return AddyData;
     }
